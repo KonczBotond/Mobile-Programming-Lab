@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Quote-App</string>
+    <string name="action_settings">Settings</string>
+    <string name="nametitle">Name</string>
+    <string name="nametext">enter your name here...</string>
+    <string name="emailtitle">Email</string>
+    <string name="emailtext">enter your email address here...</string>
+    <string name="quotetitle">Your quote:</string>
+    <string name="quotetext"></string>
+    <string name="submitformbutton">Send</string>
+    <string name="addquotebutton">Send Quote</string>
+    <string name="viewquotesbutton">View Quotes</string>
+    <string name="title_quote_list">Quotes</string>
+    <string name="title_quote_detail">Quote Detail</string>
+    <string name="editquotetext">Edit quote:</string>
+    <string name="editbutton">Edit</string>
+
+</resources>
