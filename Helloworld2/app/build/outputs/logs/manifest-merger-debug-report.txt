@@ -1,0 +1,187 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:2:1-27:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a16d8db636d52c9c8e8db450bc219f0d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\efd12a061b19937718074195f9743d75\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\4f56d96a929c58966d61e14fe2ca8a84\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\6dd4695301a68dc9d786b0d3b2ddd318\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\321edf8d070cd67132eac7a67238ecf8\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\3d48117ea942325ce6d6b3823ca82009\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\f9d503083749cf22e09bcff1eefe2249\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\3c898464e1cf143ecdbd84a4107a1c73\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\ccdaea98a17fe2c3db356acbed2a49be\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\ba57668ea57ba2aca29d224bec560d6c\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\3708c8ee1ee1bf5e4a6c191e7f0d3089\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\088b69e5399c73775606a77f66d3ba2c\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\fbf5a1db7bbbddcf93619b560dd8c136\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\efa37b041e4dca8c57ffae1f347dc1a2\AndroidManifest.xml:17:1-30:12
+INJECTED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:3:5-45
+		INJECTED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:2:1-27:12
+		INJECTED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:2:1-27:12
+		INJECTED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:5:5-25:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a16d8db636d52c9c8e8db450bc219f0d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a16d8db636d52c9c8e8db450bc219f0d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\efd12a061b19937718074195f9743d75\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\efd12a061b19937718074195f9743d75\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\4f56d96a929c58966d61e14fe2ca8a84\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\4f56d96a929c58966d61e14fe2ca8a84\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\6dd4695301a68dc9d786b0d3b2ddd318\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\6dd4695301a68dc9d786b0d3b2ddd318\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\321edf8d070cd67132eac7a67238ecf8\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\321edf8d070cd67132eac7a67238ecf8\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\3d48117ea942325ce6d6b3823ca82009\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\3d48117ea942325ce6d6b3823ca82009\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\f9d503083749cf22e09bcff1eefe2249\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\f9d503083749cf22e09bcff1eefe2249\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\3c898464e1cf143ecdbd84a4107a1c73\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\3c898464e1cf143ecdbd84a4107a1c73\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\ccdaea98a17fe2c3db356acbed2a49be\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\ccdaea98a17fe2c3db356acbed2a49be\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\ba57668ea57ba2aca29d224bec560d6c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\ba57668ea57ba2aca29d224bec560d6c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\3708c8ee1ee1bf5e4a6c191e7f0d3089\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\3708c8ee1ee1bf5e4a6c191e7f0d3089\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\088b69e5399c73775606a77f66d3ba2c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\088b69e5399c73775606a77f66d3ba2c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\fbf5a1db7bbbddcf93619b560dd8c136\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\fbf5a1db7bbbddcf93619b560dd8c136\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\efa37b041e4dca8c57ffae1f347dc1a2\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\efa37b041e4dca8c57ffae1f347dc1a2\AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.botond.helloworld2.MainActivity
+ADDED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:12:9-21:20
+	android:label
+		ADDED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:14:13-45
+	android:theme
+		ADDED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:15:13-56
+	android:name
+		ADDED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:13:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:19:27-74
+activity#com.example.botond.helloworld2.AddQuoteActivity
+ADDED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:22:9-63
+	android:name
+		ADDED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:22:19-51
+activity#com.example.botond.helloworld2.ViewListActivity
+ADDED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:23:9-63
+	android:name
+		ADDED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:23:19-51
+activity#com.example.botond.helloworld2.EditQuoteActivity
+ADDED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:24:9-64
+	android:name
+		ADDED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml:24:19-52
+uses-sdk
+INJECTED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a16d8db636d52c9c8e8db450bc219f0d\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a16d8db636d52c9c8e8db450bc219f0d\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\efd12a061b19937718074195f9743d75\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\efd12a061b19937718074195f9743d75\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\4f56d96a929c58966d61e14fe2ca8a84\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\4f56d96a929c58966d61e14fe2ca8a84\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\6dd4695301a68dc9d786b0d3b2ddd318\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\6dd4695301a68dc9d786b0d3b2ddd318\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\321edf8d070cd67132eac7a67238ecf8\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\321edf8d070cd67132eac7a67238ecf8\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\3d48117ea942325ce6d6b3823ca82009\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\3d48117ea942325ce6d6b3823ca82009\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\f9d503083749cf22e09bcff1eefe2249\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\f9d503083749cf22e09bcff1eefe2249\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\3c898464e1cf143ecdbd84a4107a1c73\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\3c898464e1cf143ecdbd84a4107a1c73\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\ccdaea98a17fe2c3db356acbed2a49be\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\ccdaea98a17fe2c3db356acbed2a49be\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\ba57668ea57ba2aca29d224bec560d6c\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\ba57668ea57ba2aca29d224bec560d6c\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\3708c8ee1ee1bf5e4a6c191e7f0d3089\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\3708c8ee1ee1bf5e4a6c191e7f0d3089\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\088b69e5399c73775606a77f66d3ba2c\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\088b69e5399c73775606a77f66d3ba2c\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\fbf5a1db7bbbddcf93619b560dd8c136\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\fbf5a1db7bbbddcf93619b560dd8c136\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\efa37b041e4dca8c57ffae1f347dc1a2\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\efa37b041e4dca8c57ffae1f347dc1a2\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a16d8db636d52c9c8e8db450bc219f0d\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Botond\AndroidStudioProjects\Helloworld2\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a16d8db636d52c9c8e8db450bc219f0d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\efd12a061b19937718074195f9743d75\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\efd12a061b19937718074195f9743d75\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\6dd4695301a68dc9d786b0d3b2ddd318\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\6dd4695301a68dc9d786b0d3b2ddd318\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\321edf8d070cd67132eac7a67238ecf8\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\321edf8d070cd67132eac7a67238ecf8\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\3d48117ea942325ce6d6b3823ca82009\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\3d48117ea942325ce6d6b3823ca82009\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\f9d503083749cf22e09bcff1eefe2249\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\f9d503083749cf22e09bcff1eefe2249\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\3c898464e1cf143ecdbd84a4107a1c73\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\3c898464e1cf143ecdbd84a4107a1c73\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\ccdaea98a17fe2c3db356acbed2a49be\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\ccdaea98a17fe2c3db356acbed2a49be\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\ba57668ea57ba2aca29d224bec560d6c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\ba57668ea57ba2aca29d224bec560d6c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\3708c8ee1ee1bf5e4a6c191e7f0d3089\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\3708c8ee1ee1bf5e4a6c191e7f0d3089\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\088b69e5399c73775606a77f66d3ba2c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\088b69e5399c73775606a77f66d3ba2c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\fbf5a1db7bbbddcf93619b560dd8c136\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\fbf5a1db7bbbddcf93619b560dd8c136\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a16d8db636d52c9c8e8db450bc219f0d\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a16d8db636d52c9c8e8db450bc219f0d\AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\efa37b041e4dca8c57ffae1f347dc1a2\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\efa37b041e4dca8c57ffae1f347dc1a2\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Botond\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\efa37b041e4dca8c57ffae1f347dc1a2\AndroidManifest.xml:26:13-58
