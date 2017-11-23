@@ -20,8 +20,11 @@ public class AddQuoteActivity extends AppCompatActivity {
     }
 
     public void sendEmail(View view){
+        final EditText email =  (EditText) findViewById(R.id.EditTextEmail);
+        String emailaddress = email.getText().toString();
+
         Log.i("Send email", "");
-        String[] TO = {"konczbotondvagyok@gmail.com"};
+        String[] TO = {emailaddress};
         String[] CC = {""};
         Intent emailIntent = new Intent(Intent.ACTION_SEND);
 
@@ -29,7 +32,7 @@ public class AddQuoteActivity extends AppCompatActivity {
         emailIntent.setType("text/plain");
         emailIntent.putExtra(Intent.EXTRA_EMAIL, TO);
         emailIntent.putExtra(Intent.EXTRA_CC, CC);
-        emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Quote");
+        emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Quote gift");
 
         final EditText edit =  (EditText) findViewById(R.id.EditTextQuote);
         String emailtext = edit.getText().toString();

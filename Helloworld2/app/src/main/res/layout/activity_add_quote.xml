@@ -10,21 +10,6 @@
         android:layout_height="fill_parent"
         android:orientation="vertical">
 
-        <!--Put form controls here-->
-        <TextView
-            android:id="@+id/TextViewName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/nametitle"
-            android:textSize="10pt"></TextView>
-
-        <EditText
-            android:id="@+id/EditTextName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/nametext"
-            android:inputType="textPersonName"></EditText>
-
         <TextView
             android:id="@+id/TextViewEmail"
             android:layout_width="wrap_content"
