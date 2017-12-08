@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { StackNavigator } from 'react-navigation';
-import { View, Text, Button,ListView,StyleSheet,TouchableOpacity,TextInput,AsyncStorage } from 'react-native';
+import { Alert,View, Text, Button,ListView,StyleSheet,TouchableOpacity,TextInput,AsyncStorage } from 'react-native';
 
 const quotes=[
 	{quote:'Don’t regret the past, just learn from it.'},
@@ -44,6 +44,30 @@ export class ListDetails extends Component<{}> {
 		}
 	}
 
+	deleteButtonClick(value){
+		Alert.alert(
+		  'Delete Quote',
+		  'Are you sure you want to delete '+this.state.quote,
+		  [
+		    {text: 'Cancel'},
+		    {text: 'OK', onPress: () => this.deleteQuote()},
+		  ],
+		  { cancelable: false }
+		 )
+	}
+
+	updateButtonClick(value){
+		Alert.alert(
+		  'Delete Quote',
+		  'Are you sure you want to update to '+this.state.quote,
+		  [
+		    {text: 'Cancel'},
+		    {text: 'OK', onPress: () => this.updateQuote()},
+		  ],
+		  { cancelable: false }
+		 )
+	}
+
 	async deleteQuote(value){
 		this.state.quoteList.splice(this.state.rowId, 1);
 		list=JSON.stringify(this.state.quoteList);
@@ -74,12 +98,12 @@ export class ListDetails extends Component<{}> {
            		 	onChangeText={(text) => this.quoteTextChanged(text)}
 		        />
 		        <Button
-			      onPress={() => this.deleteQuote()}
+			      onPress={() => this.deleteButtonClick()}
 			     
 			      title="Delete Quote"
 			    />
 			    <Button
-			      onPress={() => this.updateQuote()}
+			      onPress={() => this.updateButtonClick()}
 			     
 			      title="Update Quote"
 			    />

@@ -38,6 +38,19 @@
             android:layout_height="wrap_content"
             android:hint="@string/byedittext"
             android:inputType="textPersonName"></EditText>
+        <TextView
+            android:id="@+id/TextViewBirthday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/birthdaytextview"
+            android:textSize="10pt"></TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/EditTextBirthday"
+            android:clickable="true"
+            android:hint="@string/birthday"></EditText>
+
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

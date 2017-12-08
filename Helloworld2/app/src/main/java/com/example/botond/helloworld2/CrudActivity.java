@@ -107,7 +107,7 @@ public class CrudActivity extends AppCompatActivity {
 
                 // set dialog message
                 alertDialogBuilder
-                        .setMessage("Are you sure you want to update?")
+                        .setMessage("Are you sure you want to delete?")
                         .setCancelable(false)
                         .setPositiveButton("Yes",new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog,int id) {
@@ -139,11 +139,11 @@ public class CrudActivity extends AppCompatActivity {
                         context);
 
                 // set title
-                alertDialogBuilder.setTitle("Delete");
+                alertDialogBuilder.setTitle("Update");
 
                 // set dialog message
                 alertDialogBuilder
-                        .setMessage("Are you sure you want to delete?")
+                        .setMessage("Are you sure you want to update?")
                         .setCancelable(false)
                         .setPositiveButton("Yes",new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog,int id) {

@@ -24,5 +24,7 @@
     <string name="byedittext" />
     <string name="bytextview">By:</string>
     <string name="listtitle">Your quotes:</string>
+    <string name="birthday">Enter the date</string>
+    <string name="birthdaytextview">Birthday</string>
 
 </resources>

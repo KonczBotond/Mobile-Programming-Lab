@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { StackNavigator } from 'react-navigation';
-import { TouchableOpacity,StyleSheet,View, ListView,Text, Button,Linking,TextInput,AsyncStorage } from 'react-native';
+import {Alert, TouchableOpacity,StyleSheet,View, ListView,Text, Button,Linking,TextInput,AsyncStorage } from 'react-native';
 
 
 const quotes=[
@@ -19,6 +19,7 @@ export class AddQuoteScreen extends Component<{}> {
 	    	dataSource: ds.cloneWithRows(quotes),
 	    	quote: 'original quote',
 	    	author: '',
+	    	quoteList:[],
 	    }
 	 }
 
@@ -45,13 +46,26 @@ export class AddQuoteScreen extends Component<{}> {
 		})
 	}
 
-	async addQuoteButtonClick(){
+	async addQuote(){
 		q={quote:this.state.quote};
 		this.state.quoteList.push(q); 
 		list=JSON.stringify(this.state.quoteList);
 	    await AsyncStorage.setItem('quoteList', list); 
 
 	   	this.updateList();
+	}
+
+	addQuoteButtonClick(){
+
+	   	Alert.alert(
+		  'Add Quote',
+		  'Are you sure you want to add '+this.state.quote,
+		  [
+		    {text: 'Cancel'},
+		    {text: 'OK', onPress: () => this.addQuote()},
+		  ],
+		  { cancelable: false }
+		 )
 
 	}
 
@@ -99,11 +113,6 @@ export class AddQuoteScreen extends Component<{}> {
 			  	title="Add Quote"
 			  	color="#841584"
 			/> 
-
-			<ListView
-		        	dataSource={this.state.dataSource}
-		        	renderRow={this.renderRow.bind(this)}
-		      	/>
 	      </View> 
 	    );
 	}
