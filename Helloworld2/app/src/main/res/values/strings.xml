@@ -8,11 +8,21 @@
     <string name="quotetitle">Your quote:</string>
     <string name="quotetext"></string>
     <string name="submitformbutton">Send</string>
-    <string name="addquotebutton">Send Quote</string>
+    <string name="sendquotebutton">Send Quote</string>
     <string name="viewquotesbutton">View Quotes</string>
+    <string name="crudquotesbutton">Manage Quotes</string>
+    <string name="addquotebutton">Add Quote</string>
+    <string name="deletequotebutton">Delete Quote</string>
+    <string name="updatequotebutton">Update Quote</string>
+    <string name="listquotesbutton">List Quotes</string>
     <string name="title_quote_list">Quotes</string>
     <string name="title_quote_detail">Quote Detail</string>
     <string name="editquotetext">Edit quote:</string>
     <string name="editbutton">Edit</string>
+    <string name="quoteedittext">Write your quote here</string>
+    <string name="quotetextview">Quote:</string>
+    <string name="byedittext" />
+    <string name="bytextview">By:</string>
+    <string name="listtitle">Your quotes:</string>
 
 </resources>

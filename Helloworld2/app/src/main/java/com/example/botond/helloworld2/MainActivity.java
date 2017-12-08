@@ -10,7 +10,6 @@ import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -57,6 +56,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void sendMessage(View view) {
+        Intent intent = new Intent(this, SendMailActivity.class);
+
+        startActivity(intent);
+    }
+
+    public void addQuote(View view) {
         Intent intent = new Intent(this, AddQuoteActivity.class);
 
         startActivity(intent);

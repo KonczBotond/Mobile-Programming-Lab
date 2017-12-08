@@ -19,13 +19,13 @@
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
         <Button
-            android:id="@+id/buttonAddQuote"
+            android:id="@+id/buttonSendEmail"
             style="@style/Widget.AppCompat.Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="sendMessage"
-            android:text="@string/addquotebutton" />
+            android:text="@string/sendquotebutton" />
 
         <Button
             android:id="@+id/button"
@@ -34,6 +34,14 @@
             android:layout_weight="1"
             android:onClick="viewQuotes"
             android:text="@string/viewquotesbutton" />
+
+        <Button
+            android:id="@+id/buttonAddQuote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="addQuote"
+            android:text="@string/addquotebutton" />
 
     </android.support.design.widget.AppBarLayout>
 

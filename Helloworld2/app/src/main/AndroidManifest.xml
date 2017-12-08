@@ -19,9 +19,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SendMailActivity" />
+        <activity android:name=".ViewListActivity" />
+        <activity android:name=".EditQuoteActivity" />
+        <activity android:name=".CrudActivity" />
         <activity android:name=".AddQuoteActivity"></activity>
-        <activity android:name=".ViewListActivity"></activity>
-        <activity android:name=".EditQuoteActivity"></activity>
     </application>
 
 </manifest>

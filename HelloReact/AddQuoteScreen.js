@@ -10,19 +10,15 @@ const quotes=[
 
 const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
 
-export class ListScreen extends Component<{}> {
+export class AddQuoteScreen extends Component<{}> {
 
 	constructor(props) {
 	    super(props);
 
 	    this.state = {
-	    	navigation:this.props.navigation.state.params.navigation,
 	    	dataSource: ds.cloneWithRows(quotes),
 	    	quote: 'original quote',
 	    	author: '',
-	    	quoteList:quotes,
-	    	l:'',
-	    	s:'not',
 	    }
 	 }
 
@@ -31,9 +27,6 @@ export class ListScreen extends Component<{}> {
 	} 
 
 	async updateList(){
-		this.setState({ 
-	        s:'started' 
-	    })
 	    
 		try {
 			const value = await AsyncStorage.getItem('quoteList');
@@ -42,28 +35,39 @@ export class ListScreen extends Component<{}> {
 
 			    this.setState({
 			    	quoteList:array,
-			    	s:JSON.stringify(this.state.quoteList),
 			    })
 			}	
 		} catch (error) {
 		  // Error retrieving data
 		}
 		this.setState({
-    		s:'add<3',
 			dataSource: this.state.dataSource.cloneWithRows(this.state.quoteList),
 		})
 	}
 
-	showDetails(quote,rowId){
-		this.state.navigation.navigate('Details',{ navigation:this.state.navigation, quote: quote.quote,rowId:rowId });
+	async addQuoteButtonClick(){
+		q={quote:this.state.quote};
+		this.state.quoteList.push(q); 
+		list=JSON.stringify(this.state.quoteList);
+	    await AsyncStorage.setItem('quoteList', list); 
 
+	   	this.updateList();
+
+	}
+
+	quoteTextChanged(value){
+		this.setState({quote:value});
+	}
+
+	authorTextChanged(value){
+		this.setState({author:value});
 	}
 
 	renderRow(quote,sectionId,rowId,highlightRow){
 		return(
 			<TouchableOpacity
 				underlayColor="blue"
-				onPress={()=>this.showDetails(quote,rowId)}
+				//onPress={()=>this.showDetails(quote)}
 			>
 				<View style={styles.row}>
 					<Text style={styles.rowText}>{quote.quote}</Text>
@@ -75,7 +79,26 @@ export class ListScreen extends Component<{}> {
 	render() {
 	    return (
 	      <View>
-	        <Text>Your quotes: </Text>
+	        <Text>Add Quote </Text>
+	        <Text>{this.state.t} </Text>
+	        <Text>Quote </Text>
+	        <TextInput
+	          style={{height: 40}}
+	          placeholder="Write your quote here!"
+	          onChangeText={(text) => this.quoteTextChanged(text)}
+	        />
+	        <Text>Author </Text>
+	        <TextInput
+	          style={{height: 40}}
+	          placeholder="Enter the email address!"
+	          onChangeText={(text) => this.authorTextChanged(text)}
+	        />
+	        
+	        <Button
+	        	onPress={this.addQuoteButtonClick.bind(this)}
+			  	title="Add Quote"
+			  	color="#841584"
+			/> 
 
 			<ListView
 		        	dataSource={this.state.dataSource}

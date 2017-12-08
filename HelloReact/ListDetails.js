@@ -1,34 +1,87 @@
 import React, { Component } from 'react';
 import { StackNavigator } from 'react-navigation';
-import { View, Text, Button,ListView,StyleSheet,TouchableOpacity,TextInput } from 'react-native';
+import { View, Text, Button,ListView,StyleSheet,TouchableOpacity,TextInput,AsyncStorage } from 'react-native';
+
+const quotes=[
+	{quote:'Don’t regret the past, just learn from it.'},
+
+]
+
+const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
 
 export class ListDetails extends Component<{}> {
-
-
 	constructor(props){
 		super(props);
 
 		this.state={
 			navigation:this.props.navigation.state.params.navigation,
 			quote:this.props.navigation.state.params.quote,
+			rowId:this.props.navigation.state.params.rowId,
+			quoteList:quotes,
 		}
 	}
 
-	edtiQuote(value){
-		this.state.navigation.navigate('List',{ navigation:this.state.navigation, oldQuote: this.state.quote,newQuote:value });
+	componentDidMount () { 
+	    this.updateList(); 
+	} 
+
+	async updateList(){
+		this.setState({ 
+	        s:'started' 
+	    })
+	    
+		try {
+			const value = await AsyncStorage.getItem('quoteList');
+			if (value !== null){
+			  	array=JSON.parse(value);
+
+			    this.setState({
+			    	quoteList:array,
+			    })
+			}	
+		} catch (error) {
+		  // Error retrieving data
+		}
+	}
+
+	async deleteQuote(value){
+		this.state.quoteList.splice(this.state.rowId, 1);
+		list=JSON.stringify(this.state.quoteList);
+		await AsyncStorage.setItem('quoteList',list);
+
+		this.state.navigation.navigate('List',{ navigation:this.state.navigation});
+	}
+
+	async updateQuote(value){
+		newQuote={quote:this.state.quote};
+		this.state.quoteList[this.state.rowId]=newQuote;
+		list=JSON.stringify(this.state.quoteList);
+		await AsyncStorage.setItem('quoteList',list);
+
+		this.state.navigation.navigate('List',{ navigation:this.state.navigation});
+	}
+
+	quoteTextChanged(value){
+		this.setState({quote:value});
 	}
 
 	render() {
 	    return (
 	      	<View>
 	        	<TextInput
-		          style={{height: 40}}
-		          placeholder={this.state.quote}
-		          onChangeText={(text) => this.quoteTextChanged(text)}
+		            style={{height: 40}}
+		            defaultValue={this.state.quote}
+           		 	onChangeText={(text) => this.quoteTextChanged(text)}
 		        />
 		        <Button
-			      onPress={() => edtiQuote()}
-			      title="Edit"
+			      onPress={() => this.deleteQuote()}
+			     
+			      title="Delete Quote"
+			    />
+			    <Button
+			      onPress={() => this.updateQuote()}
+			     
+			      title="Update Quote"
 			    />
 	        </View>	        
 	    );
